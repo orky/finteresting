@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise', '~> 4.3.0'
 
+gem 'newrelic_rpm', '~> 4.2.0.334'
+
 group :development, :test do
   gem 'sqlite3'
 end
