@@ -37,6 +37,9 @@ gem 'devise', '~> 4.3.0'
 
 gem 'newrelic_rpm', '~> 4.2.0.334'
 
+# Notifies when errors occur. Using for PagerDuty integration.
+gem 'rollbar'
+
 group :development, :test do
   gem 'sqlite3'
 end
