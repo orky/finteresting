@@ -37,6 +37,8 @@ gem 'devise', '~> 4.3.0'
 
 gem 'newrelic_rpm', '~> 4.2.0.334'
 
+gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
+
 # Notifies when errors occur. Using for PagerDuty integration.
 gem 'rollbar'
 
