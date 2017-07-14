@@ -3,20 +3,20 @@
 # .NET, PHP, Python and Node applications with deep visibility and low
 # overhead.  For more information, visit www.newrelic.com.
 #
-# Generated June 04, 2017
+# Generated July 14, 2017
 #
-# This configuration file is custom generated for Demo1_3
+# This configuration file is custom generated for New Relic_851
 #
 # For full documentation of agent configuration options, please refer to
 # https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/ruby-agent-configuration
 
 common: &default_settings
   # Required license key associated with your New Relic account.
-  license_key: 2a6f55ff1af875f653bc48da01dbb501fd5fd952
+  license_key: d2c89bdbce24c53996c4e86b5c62031f120a6e0c
 
   # Your application name. Renaming here affects where data displays in New
   # Relic.  For more details, see https://docs.newrelic.com/docs/apm/new-relic-apm/maintenance/renaming-applications
-  app_name: Finteresting
+  app_name: TestAppForIntegration
 
   # To disable the agent regardless of other settings, uncomment the following:
   # agent_enabled: false
@@ -30,8 +30,7 @@ common: &default_settings
 # If your application has other named environments, configure them here.
 development:
   <<: *default_settings
-  app_name: Finteresting (Development)
-  monitor_mode: false
+  app_name: TestAppForIntegration (Development)
 
 test:
   <<: *default_settings
@@ -40,7 +39,7 @@ test:
 
 staging:
   <<: *default_settings
-  app_name: Finteresting (Staging)
+  app_name: My Application (Staging)
 
 production:
   <<: *default_settings
